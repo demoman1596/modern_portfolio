@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #000;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -39,7 +39,7 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: rgba(56, 56, 56, 0.9);
+    background: rgba(162, 162, 162, 0.9);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
@@ -48,7 +48,7 @@
   .menu-branding {
     margin: 0;
     padding: 0;
-    background: rgba(64, 64, 64, 0.9);
+    background: rgba(170, 170, 170, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -58,14 +58,14 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #eece1a; }
+      border: solid 3px #1441aa; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eece1a; }
+      color: #1441aa; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -73,11 +73,11 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #eece1a; }
+      color: #1441aa; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -98,8 +98,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #404040;
-  color: #fff;
+  background: #aaa;
+  color: #000;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -116,7 +116,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(64, 64, 64, 0.8); }
+      background: rgba(170, 170, 170, 0.8); }
 
 h1,
 h2,
@@ -132,10 +132,10 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(72, 72, 72, 0.5); }
+    background: rgba(178, 178, 178, 0.5); }
 
 a {
-  color: #fff;
+  color: #000;
   text-decoration: none; }
 
 header {
@@ -144,7 +144,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #1441aa; }
 
 main {
   padding: 4rem;
@@ -154,7 +154,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #eece1a;
+        color: #1441aa;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -163,7 +163,7 @@ main {
 
 .resume-dates {
   font-weight: 100;
-  color: #b3b3b3; }
+  color: black; }
 
 .about-info {
   display: grid;
@@ -177,7 +177,7 @@ main {
   height: 250px;
   margin: auto;
   border-radius: 50%;
-  border: #eece1a 3px solid; }
+  border: #1441aa 3px solid; }
 
 .bio {
   grid-area: bio;
@@ -193,9 +193,9 @@ main {
   grid-area: job3; }
 
 .job {
-  background: #4d4d4d;
+  background: #b7b7b7;
   padding: 0.5rem;
-  border-bottom: #eece1a 5px solid; }
+  border-bottom: #1441aa 5px solid; }
 
 .projects {
   display: grid;
@@ -206,7 +206,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #1441aa;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -223,10 +223,10 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
-      color: #000; }
+      background: #1441aa;
+      color: #fff; }
       .boxes div:hover span {
-        color: #000; }
+        color: #fff; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -234,22 +234,22 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
-    color: #000; }
+    background: #1441aa;
+    color: #fff; }
 
 .btn-dark {
-  background: black;
+  background: #2b2b2b;
   color: #fff; }
 
 .btn-light {
-  background: silver;
+  background: white;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #272727;
-  color: #fff;
+  background: #919191;
+  color: #000;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
